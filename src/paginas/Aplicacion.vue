@@ -1,10 +1,29 @@
-<script setup>
-// https://vuejs.org/api/sfc-script-setup.html#script-setup
+<script>
 import Inicio from '../componentes/Inicio.vue';
+import Juego from '../componentes/Juego.vue';
+
+export default {
+  components: { Inicio, Juego },
+  data() {
+    return {
+      jugar: false,
+    };
+  },
+  methods: {
+    actualizarEstado() {
+      this.jugar = !this.jugar;
+    },
+  },
+};
 </script>
 
 <template>
-  <Inicio />
+  <div v-if="jugar">
+    <Juego />
+  </div>
+  <div v-else>
+    <Inicio :actualizarEstado="actualizarEstado" />
+  </div>
 </template>
 
 <style>

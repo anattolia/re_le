@@ -1,54 +1,54 @@
 {
-    "escenas":[
-        {
-            "numero":0,
-            "titulo":"Muerte",
-            "descripcion_izq":"CAMBIAR-Te auguran buena suerte, tu familia no te abandona",
-            "descripcion_der":"CAMBIAR-El oráculo trae malas noticias, así que deciden llevarte al bosque y abandonarte allí",
-            "imagen_izq":"CAMBIAR-Un hogar",
-            "imagen_der":"CAMBIAR-Lo silvestre",
-            "escena_izq": 2,
-            "escena_der": 3
-         },
-       {
-          "numero":1,
-          "titulo":"Naciste con vida. Consultan el oráculo sobre tu futuro",
-          "descripcion_izq":"Te auguran buena suerte, tu familia no te abandona",
-          "descripcion_der":"El oráculo trae malas noticias, así que deciden llevarte al bosque y abandonarte allí",
-          "imagen_izq":"prueba",
-          "imagen_der":"Lo silvestre",
-          "escena_izq": 2,
-          "escena_der": 3
-       },
-       {
-          "numero":2,
-          "titulo":"tu familia no te abandonó pero salió a pasear y ahora debes alimentarte.",
-          "descripcion_izq":"Encontraste en el sótano un objeto extraño. Lo comes, hay que probarlo todo.",
-          "descripcion_der":"En la cocina queda un poco de pan de centeno viejo.",
-          "imagen_izq":"imagen izquierda",
-          "imagen_der":"imagen derecha",
-          "escena_izq": 0,
-          "escena_der": 4
-       },
-       {
-          "numero":3,
-          "titulo":"Te abandonaron en el bosque para esquivar los malos augurios. Ahora debes alimantarte.",
-          "descripcion_izq":"Solo ves un árbol de frutos pequeños y vistosos. Comes algunos.",
-          "descripcion_der":"En el bosque, debajo de un árbol, hay hongos. Comes uno.",
-          "imagen_izq":"imagen izquierda",
-          "imagen_der":"imagen derecha",
-          "escena_izq": 0,
-          "escena_der": 4
-       },
-       {
-        "numero":4,
-        "titulo":"CAMBIAR-Te abandonaron en el bosque para esquivar los malos augurios. Ahora debes alimantarte.",
-        "descripcion_izq":"CAMBIAR-Solo ves un árbol de frutos pequeños y vistosos. Comes algunos.",
-        "descripcion_der":"CAMBIAR-En el bosque, debajo de un árbol, hay hongos. Comes uno.",
-        "imagen_izq":"CAMBIAR-imagen izquierda",
-        "imagen_der":"CAMBIAR-imagen derecha",
-        "escena_izq": 0,
-        "escena_der": 4
-     }
-    ]
- }
+  "escenas": [
+    {
+      "numero": 0,
+      "titulo": "Muerte",
+      "descripcion_izq": "CAMBIAR-Te auguran buena suerte, tu familia no te abandona",
+      "descripcion_der": "CAMBIAR-El oráculo trae malas noticias, así que deciden llevarte al bosque y abandonarte allí",
+      "imagen_izq": "CAMBIAR-Un hogar",
+      "imagen_der": "CAMBIAR-Lo silvestre",
+      "escena_izq": 2,
+      "escena_der": 3
+    },
+    {
+      "numero": 1,
+      "titulo": "Naciste con vida. Consultan el oráculo sobre tu futuro",
+      "descripcion_izq": "Te auguran buena suerte, tu familia no te abandona",
+      "descripcion_der": "El oráculo trae malas noticias, así que deciden llevarte al bosque y abandonarte allí",
+      "imagen_izq": "prueba",
+      "imagen_der": "Lo silvestre",
+      "escena_izq": 2,
+      "escena_der": 3
+    },
+    {
+      "numero": 2,
+      "titulo": "tu familia no te abandonó pero salió a pasear y ahora debes alimentarte.",
+      "descripcion_izq": "Encontraste en el sótano un objeto extraño. Lo comes, hay que probarlo todo.",
+      "descripcion_der": "En la cocina queda un poco de pan de centeno viejo.",
+      "imagen_izq": "CAMBIAR-imagen izquierda",
+      "imagen_der": "CAMBIAR-imagen derecha",
+      "escena_izq": 0,
+      "escena_der": 4
+    },
+    {
+      "numero": 3,
+      "titulo": "Te abandonaron en el bosque para esquivar los malos augurios. Ahora debes alimantarte.",
+      "descripcion_izq": "Solo ves un árbol de frutos pequeños y vistosos. Comes algunos.",
+      "descripcion_der": "En el bosque, debajo de un árbol, hay hongos. Comes uno.",
+      "imagen_izq": "CAMBIAR-imagen izquierda",
+      "imagen_der": "CAMBIAR-imagen derecha",
+      "escena_izq": 0,
+      "escena_der": 4
+    },
+    {
+      "numero": 4,
+      "titulo": "CAMBIAR-Te abandonaron en el bosque para esquivar los malos augurios. Ahora debes alimantarte.",
+      "descripcion_izq": "CAMBIAR-Solo ves un árbol de frutos pequeños y vistosos. Comes algunos.",
+      "descripcion_der": "CAMBIAR-En el bosque, debajo de un árbol, hay hongos. Comes uno.",
+      "imagen_izq": "CAMBIAR-imagen izquierda",
+      "imagen_der": "CAMBIAR-imagen derecha",
+      "escena_izq": 0,
+      "escena_der": 4
+    }
+  ]
+}

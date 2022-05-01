@@ -6,8 +6,7 @@
     <div id="opcion" @click="cargarEscena(escena.escenaIzq)">
       <p>{{ escena.descripcionIzq }}</p>
       <!-- TODO: Arreglar url -->
-      <img :src="urlImagen(escena.imagenIzq)" alt="no se ve" />
-      <img src="../assets/img/prueba.jpg" />
+      <img :src="`${urlImagen(escena.imagenIzq)}`" alt="no se ve" />
     </div>
     <div id="opcion" @click="cargarEscena(escena.escenaDer)">
       <p>{{ escena.descripcionDer }}</p>
@@ -31,6 +30,7 @@ export default {
         imagenDer: '',
         escenaIzq: null,
         escenaDer: null,
+        imagen: null,
       },
     };
   },
@@ -51,8 +51,11 @@ export default {
       this.escena.escenaDer = this.escenasJSON.escenas[i].escena_der;
     },
     urlImagen(img) {
-      console.log(`../assets/img/${img}.jpg`);
-      return `../assets/img/${img}.jpg`;
+      if (!img.includes('CAMBIAR')) {
+        return `${require(`../assets/${img}.jpg`)}`;
+      } else {
+        return `${require('../assets/prueba.jpg')}`;
+      }
     },
   },
 };

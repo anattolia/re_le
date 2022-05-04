@@ -1,29 +1,34 @@
-# hello-world
+# Un juego sobre Aprendizaje por Refuerzo (*Reinforcement Learning*)
 
-## Project setup
+hecho por Antonia Bustamante y Julián Brandgold, por invitación de Guido Corallo y Merlina Rañi.
+
+
+Este proyecto usa Vue.js.
+
+## Para correr el projecto
 
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compilar en desarrollo
 
 ```
 yarn start
 ```
 
-### Compiles and minifies for production
+### Compilar y hacer *minify* para producción
 
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### Limpiar estilo de los archivos
 
 ```
 yarn lint
 ```
 
-### Customize configuration
+### Editar configuración
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Ver [Referencia de Configuración](https://cli.vuejs.org/config/).

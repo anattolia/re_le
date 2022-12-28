@@ -2,53 +2,168 @@
   "escenas": [
     {
       "numero": 0,
-      "titulo": "Muerte",
-      "descripcion_izq": "CAMBIAR-Te auguran buena suerte, tu familia no te abandona",
-      "descripcion_der": "CAMBIAR-El oráculo trae malas noticias, así que deciden llevarte al bosque y abandonarte allí",
-      "imagen_izq": "CAMBIAR-Un hogar",
-      "imagen_der": "CAMBIAR-Lo silvestre",
-      "escena_izq": 2,
-      "escena_der": 3
+      "titulo": "Moriste por tomar una decisión equivocada. Esas cosas pasan pero no todo ha sido en vano. Tu experiencia ayudará a que generaciones futuras sobrevivan.",
+      "descripcion_izq": "Quiero volver atrás, ¡denme otra oportunidad!",
+      "descripcion_der": "Acepto la muerte. Lo que fue, fue.",
+      "imagen_izq": "escena_0_opcion_izq",
+      "imagen_der": "escena_0_opcion_der",
+      "escena_izq": 1,
+      "escena_der": "CAMBIAR - final",
+      "texto_muerte": ""
     },
     {
       "numero": 1,
       "titulo": "Naciste con vida. Consultan el oráculo sobre tu futuro",
       "descripcion_izq": "Te auguran buena suerte, tu familia no te abandona",
       "descripcion_der": "El oráculo trae malas noticias, así que deciden llevarte al bosque y abandonarte allí",
-      "imagen_izq": "prueba",
-      "imagen_der": "Lo silvestre",
+      "imagen_izq": "escena_1_opcion_izq",
+      "imagen_der": "escena_1_opcion_der",
       "escena_izq": 2,
-      "escena_der": 3
+      "escena_der": 3,
+      "texto_muerte": ""
     },
     {
       "numero": 2,
-      "titulo": "tu familia no te abandonó pero salió a pasear y ahora debes alimentarte.",
-      "descripcion_izq": "Encontraste en el sótano un objeto extraño. Lo comes, hay que probarlo todo.",
-      "descripcion_der": "En la cocina queda un poco de pan de centeno viejo.",
-      "imagen_izq": "CAMBIAR-imagen izquierda",
-      "imagen_der": "CAMBIAR-imagen derecha",
+      "titulo": "Tu familia no te abandonó pero salió a pasear y ahora debes alimentarte.",
+      "descripcion_izq": "Encuentras en el sótano unas bolitas blancas… Las comes, hay que probarlo todo.",
+      "descripcion_der": "En la cocina queda un poco de pan de centeno viejo. Va.",
+      "imagen_izq": "escena_2_opcion_izq",
+      "imagen_der": "escena_2_opcion_der",
       "escena_izq": 0,
-      "escena_der": 4
+      "escena_der": 4,
+      "texto_muerte": "Comerte eso no fue buena idea. El mundo está lleno de peligros y el dolor que estás sintiendo quizás no es pasajero."
     },
     {
       "numero": 3,
-      "titulo": "Te abandonaron en el bosque para esquivar los malos augurios. Ahora debes alimantarte.",
-      "descripcion_izq": "Solo ves un árbol de frutos pequeños y vistosos. Comes algunos.",
-      "descripcion_der": "En el bosque, debajo de un árbol, hay hongos. Comes uno.",
-      "imagen_izq": "CAMBIAR-imagen izquierda",
-      "imagen_der": "CAMBIAR-imagen derecha",
-      "escena_izq": 0,
-      "escena_der": 4
+      "titulo": "Te abandonaron en el bosque para esquivar los malos augurios. Ahora debes alimentarte.",
+      "descripcion_izq": "En el bosque, debajo de un árbol, hay hongos vistosos. Comes uno.",
+      "descripcion_der": "Solo ves un árbol de frutos pequeños y vistosos. Comes algunos.",
+      "imagen_izq": "escena_3_opcion_izq",
+      "imagen_der": "escena_3_opcion_der",
+      "escena_izq": 4,
+      "escena_der": 0,
+      "texto_muerte": "Comerte eso no fue buena idea, ¿viste antes si los pájaros se alimentan de esos frutos?. ¿Sigues pensando que todo lo natural es inofensivo?"
     },
     {
       "numero": 4,
-      "titulo": "CAMBIAR-Te abandonaron en el bosque para esquivar los malos augurios. Ahora debes alimantarte.",
-      "descripcion_izq": "CAMBIAR-Solo ves un árbol de frutos pequeños y vistosos. Comes algunos.",
-      "descripcion_der": "CAMBIAR-En el bosque, debajo de un árbol, hay hongos. Comes uno.",
-      "imagen_izq": "CAMBIAR-imagen izquierda",
-      "imagen_der": "CAMBIAR-imagen derecha",
+      "titulo": "Eso que comiste alteró tu estado de consciencia. Empiezas a caminar, la realidad de expande y se contrae, los colores no son los mismos, el sentido de la vida quiere revelarse…",
+      "descripcion_izq": "A la izquierda hay un desierto, un ser de arena en medio del oasis te llama. Galopas en tu camello hacia allá.",
+      "descripcion_der": "A la derecha montañas de colores suben y bajan, los árboles bailan y en el cielo hay muchos soles. Vuelas.",
+      "imagen_izq": "escena_4_opcion_izq",
+      "imagen_der": "escena_4_opcion_der",
+      "escena_izq": 5,
+      "escena_der": 6,
+      "texto_muerte": ""
+    },
+    {
+      "numero": 5,
+      "titulo": "En tu camino hacia el oasis encuentras una serpiente y un roedor. El ser de arena te grita que adoptes uno de los dos.",
+      "descripcion_izq": "Sabes hablar con las serpientes. Esta te cae bien.",
+      "descripcion_der": "Siempre te han gustado los ratoncitos, son tiernos.",
+      "imagen_izq": "escena_5_opcion_izq",
+      "imagen_der": "escena_5_opcion_der",
+      "escena_izq": 7,
+      "escena_der": 0,
+      "texto_muerte": "Puede que los roedores sean tiernos pero también contagian enfermedades. Algunas son mortales."
+    },
+    {
+      "numero": 6,
+      "titulo": "En tu camino hacia las montañas un becerro pequeño te pide que lo adoptes (te mira con sus ojitos de becerro pequeño y abandonado).",
+      "descripcion_izq": "Lo adoptas sin pensarlo, es precioso y seguro trae buena suerte.",
+      "descripcion_der": "No lo adoptas, coartaría tu libertad y no hay comida para dos.",
+      "imagen_izq": "escena_6_opcion_izq",
+      "imagen_der": "escena_6_opcion_der",
       "escena_izq": 0,
-      "escena_der": 4
+      "escena_der": 7,
+      "texto_muerte": "Tu becerro atrajo un animal feroz y hambriento. Iba por él pero le quedaste de postre."
+    },
+    {
+      "numero": 7,
+      "titulo": "Tu viaje lisérgico terminó. Viene una tormenta oscura y, a pesar del cansancio, debes refugiarte.",
+      "descripcion_izq": "Te armas un refugio con troncos y hojas, justo a tiempo para evitar la lluvia.",
+      "descripcion_der": "Encuentras una cueva y entras a dormir mientras pasa la tormenta.",
+      "imagen_izq": "escena_7_opcion_izq",
+      "imagen_der": "escena_7_opcion_der",
+      "escena_izq": 8,
+      "escena_der": 0,
+      "texto_muerte": "Olvidaste que en las cuevas viven cíclopes, no gustan de la humanidad y tienen hambre…"
+    },
+    {
+      "numero": 8,
+      "titulo": "La tormenta pasó. Sales del refugio y después de un rato caminando, ves a lo lejos un grupo de gente.",
+      "descripcion_izq": "Te acercas a ellos, ya no puedes vivir más sin interactuar con alguien.",
+      "descripcion_der": "No te interesa la gente. Sigues tu camino.",
+      "imagen_izq": "escena_8_opcion_izq",
+      "imagen_der": "escena_8_opcion_der",
+      "escena_izq": 10,
+      "escena_der": 9,
+      "texto_muerte": ""
+    },
+    {
+      "numero": 9,
+      "titulo": "Un rato después te encuentras de frente con un oso.",
+      "descripcion_izq": "Tienes mucha hambre y decides cazarle.",
+      "descripcion_der": "Entras en pánico y sales a correr.",
+      "imagen_izq": "escena_9_opcion_izq",
+      "imagen_der": "escena_9_opcion_der",
+      "escena_izq": 0,
+      "escena_der": 0,
+      "texto_muerte": ""
+    },
+    {
+      "numero": 10,
+      "titulo": "Hay siete personas, están cazando.",
+      "descripcion_izq": "Aprovechas su distracción para robarles una piel de bisonte.",
+      "descripcion_der": "En grupo conseguirán más comida. Te unes a la cacería.",
+      "imagen_izq": "escena_8_opcion_izq",
+      "imagen_der": "escena_8_opcion_der",
+      "escena_izq": 0,
+      "escena_der": 11,
+      "texto_muerte": ""
+    },
+    {
+      "numero": 11,
+      "titulo": "Ahora vives en sociedad. Un alacrán pica a alguien, te acercas y te preguntan qué hacer.",
+      "descripcion_izq": "Sabes que deben remojar semillas de tamarindo en agua y presionarlas sobre la zona de la picadura. Sirven para absorber el veneno del cuerpo.",
+      "descripcion_der": "Intentas succionar el veneno antes de que llegue al corazón.",
+      "imagen_izq": "escena_11_opcion_izq",
+      "imagen_der": "escena_11_opcion_der",
+      "escena_izq": 12,
+      "escena_der": 0,
+      "texto_muerte": ""
+    },
+    {
+      "numero": 12,
+      "titulo": "Te convertiste en el curandero de la tribu y tienes un rol importante. Sin embargo, de noche te intrigan las luces que ves en el horizonte.",
+      "descripcion_izq": "La curiosidad mató al gato. Mejor te quedas en tu vida tranquila, rural…",
+      "descripcion_der": "En el lugar que ya conoces no va a pasar nada nuevo. Te vas a explorar qué son esas luces.",
+      "imagen_izq": "escena_12_opcion_izq",
+      "imagen_der": "escena_12_opcion_der",
+      "escena_izq": 13,
+      "escena_der": 14,
+      "texto_muerte": ""
+    },
+    {
+      "numero": 13,
+      "titulo": "¡Bienvenidx al capitalismo interplanetario!",
+      "descripcion_izq": "",
+      "descripcion_der": "",
+      "imagen_izq": "fin_2_invasion_alien",
+      "imagen_der": "",
+      "escena_izq": 15,
+      "escena_der": null,
+      "texto_muerte": ""
+    },
+    {
+      "numero": 14,
+      "titulo": "Llegaste a la sociedad. Felicitaciones, ya sos un engranaje de la maquinaria del capitalismo.",
+      "descripcion_izq": "",
+      "descripcion_der": "",
+      "imagen_izq": "fin_1_capitalismo",
+      "imagen_der": "",
+      "escena_izq": 15,
+      "escena_der": null,
+      "texto_muerte": ""
     }
   ]
 }

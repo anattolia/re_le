@@ -89,6 +89,7 @@ export default {
 }
 #titulo {
 font-size: 0.9em;
+margin: 0 6em;
 }
 .descripcion {
   position: absolute;

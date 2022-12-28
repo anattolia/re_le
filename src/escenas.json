@@ -8,7 +8,7 @@
       "imagen_izq": "escena_0_opcion_izq",
       "imagen_der": "escena_0_opcion_der",
       "escena_izq": 1,
-      "escena_der": "CAMBIAR - final",
+      "escena_der": 15,
       "texto_muerte": ""
     },
     {
@@ -31,22 +31,22 @@
       "imagen_der": "escena_2_opcion_der",
       "escena_izq": 0,
       "escena_der": 4,
-      "texto_muerte": "Comerte eso no fue buena idea. El mundo está lleno de peligros y el dolor que estás sintiendo quizás no es pasajero."
+      "texto_muerte": "Comerte eso no fue buena idea. El mundo está lleno de peligros y el dolor que estás sintiendo quizás no sea pasajero."
     },
     {
       "numero": 3,
       "titulo": "Te abandonaron en el bosque para esquivar los malos augurios. Ahora debes alimentarte.",
-      "descripcion_izq": "En el bosque, debajo de un árbol, hay hongos vistosos. Comes uno.",
+      "descripcion_izq": "En el bosque, entre las hojas caídas, hay hongos de colores. Muerdes uno.",
       "descripcion_der": "Solo ves un árbol de frutos pequeños y vistosos. Comes algunos.",
       "imagen_izq": "escena_3_opcion_izq",
       "imagen_der": "escena_3_opcion_der",
       "escena_izq": 4,
       "escena_der": 0,
-      "texto_muerte": "Comerte eso no fue buena idea, ¿viste antes si los pájaros se alimentan de esos frutos?. ¿Sigues pensando que todo lo natural es inofensivo?"
+      "texto_muerte": "Comerte eso no fue buena idea. ¿Viste antes si los pájaros picotean esos frutos? ¿Sigues pensando que todo lo natural es inofensivo?"
     },
     {
       "numero": 4,
-      "titulo": "Eso que comiste alteró tu estado de consciencia. Empiezas a caminar, la realidad de expande y se contrae, los colores no son los mismos, el sentido de la vida quiere revelarse…",
+      "titulo": "Eso que comiste alteró tu estado de consciencia. Empiezas a caminar, la realidad se expande y se contrae, los colores no son los mismos, el sentido de la vida quiere revelarse…",
       "descripcion_izq": "A la izquierda hay un desierto, un ser de arena en medio del oasis te llama. Galopas en tu camello hacia allá.",
       "descripcion_der": "A la derecha montañas de colores suben y bajan, los árboles bailan y en el cielo hay muchos soles. Vuelas.",
       "imagen_izq": "escena_4_opcion_izq",
@@ -64,7 +64,7 @@
       "imagen_der": "escena_5_opcion_der",
       "escena_izq": 7,
       "escena_der": 0,
-      "texto_muerte": "Puede que los roedores sean tiernos pero también contagian enfermedades. Algunas son mortales."
+      "texto_muerte": "Los roedores son tiernos pero también contagian enfermedades. Algunas son mortales."
     },
     {
       "numero": 6,
@@ -91,7 +91,7 @@
     {
       "numero": 8,
       "titulo": "La tormenta pasó. Sales del refugio y después de un rato caminando, ves a lo lejos un grupo de gente.",
-      "descripcion_izq": "Te acercas a ellos, ya no puedes vivir más sin interactuar con alguien.",
+      "descripcion_izq": "Te acercas a ellos, necesitas interactuar con alguien.",
       "descripcion_der": "No te interesa la gente. Sigues tu camino.",
       "imagen_izq": "escena_8_opcion_izq",
       "imagen_der": "escena_8_opcion_der",
@@ -108,7 +108,7 @@
       "imagen_der": "escena_9_opcion_der",
       "escena_izq": 0,
       "escena_der": 0,
-      "texto_muerte": ""
+      "texto_muerte": "Un oso es un oso..."
     },
     {
       "numero": 10,
@@ -119,18 +119,18 @@
       "imagen_der": "escena_8_opcion_der",
       "escena_izq": 0,
       "escena_der": 11,
-      "texto_muerte": ""
+      "texto_muerte": "¿Hacía falta hacer enemigos?"
     },
     {
       "numero": 11,
       "titulo": "Ahora vives en sociedad. Un alacrán pica a alguien, te acercas y te preguntan qué hacer.",
-      "descripcion_izq": "Sabes que deben remojar semillas de tamarindo en agua y presionarlas sobre la zona de la picadura. Sirven para absorber el veneno del cuerpo.",
+      "descripcion_izq": "Sabes que remojar semillas de tamarindo en agua y presionarlas sobre la picadura sirve para absorber el veneno del cuerpo.",
       "descripcion_der": "Intentas succionar el veneno antes de que llegue al corazón.",
       "imagen_izq": "escena_11_opcion_izq",
       "imagen_der": "escena_11_opcion_der",
       "escena_izq": 12,
       "escena_der": 0,
-      "texto_muerte": ""
+      "texto_muerte": "Tal vez salvaste a esa persona con tu acto heróico pero nunca lo sabrás, el veneno llegó a tu corazón."
     },
     {
       "numero": 12,
@@ -145,7 +145,7 @@
     },
     {
       "numero": 13,
-      "titulo": "¡Bienvenidx al capitalismo interplanetario!",
+      "titulo": "Un tiempo después los alienígenas invaden la Tierra. ¡Bienvenidx al capitalismo interplanetario!",
       "descripcion_izq": "",
       "descripcion_der": "",
       "imagen_izq": "fin_2_invasion_alien",
@@ -162,6 +162,17 @@
       "imagen_izq": "fin_1_capitalismo",
       "imagen_der": "",
       "escena_izq": 15,
+      "escena_der": null,
+      "texto_muerte": ""
+    },
+    {
+      "numero": 15,
+      "titulo": "FIN",
+      "descripcion_izq": "",
+      "descripcion_der": "",
+      "imagen_izq": "",
+      "imagen_der": "",
+      "escena_izq": null,
       "escena_der": null,
       "texto_muerte": ""
     }

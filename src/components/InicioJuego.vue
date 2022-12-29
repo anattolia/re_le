@@ -38,7 +38,14 @@ button {
 }
 #introduccion {
   width: 60vw;
-  margin: 7em auto;
+  margin: 4em auto;
   font-size: 1.3em;
+}
+
+@media (min-width: 768px) {
+  #introduccion {
+    margin: 7em auto;
+    font-size: 1.5em;
+  }
 }
 </style>

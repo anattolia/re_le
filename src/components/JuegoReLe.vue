@@ -51,6 +51,7 @@ export default {
 
   created() {
     this.cargarEscena(1);
+    this.pintarCucaracha();
   },
 
   methods: {
@@ -69,24 +70,29 @@ export default {
       this.escena.escenaDer = this.escenasJSON.escenas[i].escena_der;
 
       escenaAnterior = this.escena.numero;
-      console.log(escenaAnterior);
     },
     urlImagen(img) {
       return `${require(`../assets/${img}.png`)}`;
+    },
+    pintarCucaracha() {
+      console.log(
+        '     Estamos bien\n',
+        " ,--.       ,---. \r\n  /    '.    /     \\ \r\n         \\  ; \r\n          \\-| \r\n         (o o)      (/ \r\n         /'v'     ,-' \r\n ,------/ >< \\---' \r\n/)     ;  --  : \r\n   ,---| ---- |--. \r\n  ;    | ---- |   : \r\n (|  ,-| ---- |-. |) \r\n    | /| ---- |\\ | \r\n    |/ | ---- | \\| \r\n    \\  : ---- ;  | \r\n     \\  \\ -- /  / \r\n     ;   \\  /  : \r\n    /   / \\/ \\  \\ \r\n   /)           (\\ "
+      );
     },
   },
 };
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 #fin {
   display: flex;
   justify-content: center;
   padding-top: 25vh;
 }
 #escena {
-  font-family: 'Prosto One', cursive;
+  font-family: 'VT323', monospace;
 }
 #titulo {
   font-size: 1.5em;
@@ -113,7 +119,7 @@ export default {
   width: 60%;
   margin: 25% 10%;
   font-size: 1.2em;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 0.5em;
   color: black;
 }

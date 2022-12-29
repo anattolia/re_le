@@ -1,9 +1,14 @@
 <template>
   <h1></h1>
   <div id="introduccion">
-<p>El aprendizaje por refuerzo o aprendizaje reforzado es un área del <a href="https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico">aprendizaje automático</a> inspirada en la <a href="https://es.wikipedia.org/wiki/Conductismo">psicología conductista</a>, cuya ocupación es determinar qué acciones debe escoger un agente en un entorno dado con el fin de maximizar alguna noción de "recompensa".</p> 
-<p>Lo siguiente es un modelo en relación a esta dinámica.</p>
-</div>
+    <p>
+      El aprendizaje por refuerzo o aprendizaje reforzado es un área del
+      <a href="https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico">aprendizaje automático</a> inspirada en la
+      <a href="https://es.wikipedia.org/wiki/Conductismo">psicología conductista</a>, cuya ocupación es determinar qué
+      acciones debe escoger un agente en un entorno dado con el fin de maximizar alguna noción de "recompensa".
+    </p>
+    <p>Lo siguiente es un modelo en relación a esta dinámica.</p>
+  </div>
   <button @click="actualizarEstado">Comenzar</button>
 </template>
 
@@ -19,8 +24,21 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+* {
+  font-family: 'VT323', monospace;
+}
+a {
+  color: rgb(157, 221, 236);
+}
+button {
+  background-color: #abdbea;
+  font-size: 1.2em;
+  cursor: pointer;
+}
 #introduccion {
   width: 60vw;
   margin: 7em auto;
+  font-size: 1.3em;
 }
 </style>

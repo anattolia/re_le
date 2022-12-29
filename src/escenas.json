@@ -13,9 +13,9 @@
     },
     {
       "numero": 1,
-      "titulo": "Naciste con vida. Consultan el oráculo sobre tu futuro",
-      "descripcion_izq": "Te auguran buena suerte, tu familia no te abandona",
-      "descripcion_der": "El oráculo trae malas noticias, así que deciden llevarte al bosque y abandonarte allí",
+      "titulo": "Naciste con vida. Consultan el oráculo sobre tu futuro.",
+      "descripcion_izq": "Te auguran buena suerte, tu familia no te abandona.",
+      "descripcion_der": "El oráculo trae malas noticias, así que deciden llevarte al bosque y abandonarte allí.",
       "imagen_izq": "escena_1_opcion_izq",
       "imagen_der": "escena_1_opcion_der",
       "escena_izq": 2,
@@ -115,8 +115,8 @@
       "titulo": "Hay siete personas, están cazando.",
       "descripcion_izq": "Aprovechas su distracción para robarles una piel de bisonte.",
       "descripcion_der": "En grupo conseguirán más comida. Te unes a la cacería.",
-      "imagen_izq": "escena_8_opcion_izq",
-      "imagen_der": "escena_8_opcion_der",
+      "imagen_izq": "escena_10_opcion_izq",
+      "imagen_der": "escena_10_opcion_der",
       "escena_izq": 0,
       "escena_der": 11,
       "texto_muerte": "¿Hacía falta hacer enemigos?"
@@ -156,7 +156,7 @@
     },
     {
       "numero": 14,
-      "titulo": "Llegaste a la sociedad. Felicitaciones, ya sos un engranaje de la maquinaria del capitalismo.",
+      "titulo": "Llegaste a la sociedad. Felicitaciones, ya eres un engranaje de la maquinaria del capitalismo.",
       "descripcion_izq": "",
       "descripcion_der": "",
       "imagen_izq": "fin_1_capitalismo",

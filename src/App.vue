@@ -8,13 +8,14 @@
 </template>
 
 <script>
-import InicioJuego from './components/InicioJuego.vue'
-import JuegoReLe from './components/JuegoReLe.vue'
+import InicioJuego from './components/InicioJuego.vue';
+import JuegoReLe from './components/JuegoReLe.vue';
 
 export default {
   name: 'App',
   components: {
-    InicioJuego, JuegoReLe
+    InicioJuego,
+    JuegoReLe,
   },
   data() {
     return {
@@ -26,7 +27,7 @@ export default {
       this.jugar = !this.jugar;
     },
   },
-}
+};
 </script>
 
 <style>
